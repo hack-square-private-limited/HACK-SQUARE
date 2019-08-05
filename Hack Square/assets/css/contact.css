@@ -1,0 +1,67 @@
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	text-align: center;
+}
+.form-control
+{
+	width: 80%;
+	margin: auto;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: #00B0FF;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+form .submit
+{
+	background:#00B0FF;
+	color: black;
+	border-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover
+{
+	background: white;
+	color: black;
+	cursor: pointer;
+	transition: all 2s ease-in-out; 
+}
+
+@media screen and (max-width:1048px){
+	.examples{
+		padding-top: 5rem !important;
+		padding-bottom: 3rem;
+	}
+	.contact-section{
+		margin-top: 14rem !important;
+		margin-bottom: 25rem !important;
+	}
+	.form{
+		margin-top: 9rem ;
+		margin-bottom: 9.5rem;
+	}
+	.form-control{
+		font-size: 28px;
+    margin-bottom: 29px;
+	}
+	.submit {
+		font-size: 30px;
+		margin-top: 50px;
+	}
+}
+@media screen and (max-width:600px){
+	.contact-section{
+		margin-top: 14rem !important;
+	}
+}

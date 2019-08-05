@@ -1,0 +1,304 @@
+body{
+	background:#000000;
+}
+body a img{
+  width: 16rem;
+  height: 20%;
+  margin-left: 0%;
+  margin-top: 1rem;
+}
+
+#iff{
+  margin-right: 1rem !important;
+}
+#pag{
+  font-size: 1.5rem !important;
+}
+#h4-p{
+  font-size: 1.6rem !important;
+  }
+  #edu{
+    font-size: 1.3vw;
+  }
+  .pri{
+    font-size: 1.8rem !important;
+  }
+body h1{
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	font-size: 6vw !important;
+}
+body h3{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: white;
+	font-size: 2vw;
+}
+body p{
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	font-size: 1.5vw;
+}
+.btn {
+  border: 2px solid black;
+  background-color: #000000;
+  color: black;
+  padding: 14px 28px;
+  font-size: 1.6vw;
+  cursor: pointer;
+}
+.primary {
+  border-color:#00B0FF;
+  color: white;
+  padding: 20px;
+  font-size: 2vw;
+}
+.primary a{
+	text-decoration:none;
+}
+.primary a:hover{
+	text-decoration:none;
+}
+
+.primary:hover {
+  background-color: white;
+  color: black;
+  border:white;
+  transition: all 0.9s;
+  text-decoration:none;
+}
+.container-fluid{
+	margin-top: 0%;
+}
+.footer{
+  margin-top: 2rem;
+  bottom: 0;
+}
+.example{
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+   p{
+    font-size: 3vw !important;
+  }
+  #Show{
+    display:none !important;
+  }
+  div.example h1{
+    font-size: 10vw;
+  }
+  
+.row {
+  margin-left: -100 !important;
+  display: inline !important;
+  padding-left: 3rem !important;
+}
+  div.example h3{
+    font-size: 5vw;
+  }
+  body a img{
+   	height:30% !important;
+   	width: 30% !important;
+  }
+  .example button{
+  	width: 30%;
+  	font-size: 3vw;
+  	padding: 2vw;
+    margin-top: 3vw;
+  }
+  .example #myBtn{
+    width: 30%;
+    font-size: 3vw;
+    padding: 2vw;
+    margin-top: -2vw;
+  }
+  .fa{
+  	font-size: 5vw !important;
+  }
+}
+.fa { 
+  font-size: 3vw;
+  padding: 10px; 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.footer{
+  margin-top: 5.5rem;
+}
+
+.fa:hover {
+	background-color: white;
+	color: #000000;
+    text-decoration:none;
+    transition: 1s;
+}
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+.fa-envelope {
+  background: #000000;
+  color: white;
+}
+#change{
+	color: #00B0FF;
+}
+.abc a
+{
+  text-decoration:none;
+  color: #00B0FF;
+}
+.abc a:hover{
+  text-decoration: none;
+  color: white !important;
+  transition: 0.5s ease;
+}
+.slid12{
+  background: black; 
+  text-align:center; 
+  height: 260px;
+  font-size:1rem;
+margin-bottom: 3rem;
+}
+.thumbnail{
+  padding-top: 4.7rem;
+}
+.typewrite{
+  padding-top:10rem;
+  color:#00B0FF !important;
+}
+.wrap{
+  margin-top: 4rem !important;
+}
+
+@media screen and (max-width: 1024px){
+  #pag{
+    font-size: 1.8rem !important;
+  }
+  #h4-p{
+    font-size: 1.3rem !important;
+    }
+    #edu{
+      font-size: 1.7vw !important;
+    }
+    .pri{
+      font-size: 1.5rem !important;
+    }
+  .slid12{ 
+    height: 280px;
+  }
+  .thumbnail{
+    margin-bottom: 50px;
+    padding-top: 6rem;
+  }
+  .ha{
+    text-align: center !important;
+  }
+  .abc{
+    font-size: 1.5vw !important;
+  }
+  .footer{
+    margin-top: 28rem !important;
+  }
+  .origin{
+    padding: 13rem 0  !important;
+  }
+
+
+body h1{
+
+	font-size: 7vw !important;
+}
+body h3{
+	font-size: 4vw;
+}
+}
+@media screen and (max-width: 900px){
+  .origin{
+    padding: 6rem 0;
+}
+.footer {
+  margin-top: 4rem !important;
+}
+
+}
+@media screen and (max-width: 1000px){
+  .slid12{ 
+    height: 160px;
+  }
+  .thumbnail{
+    padding-top: 1rem;
+  }
+  .origin {
+    padding: 6rem 0;
+}
+}
+@media screen and (max-width: 768px){
+  .slid12{ 
+    height: 160px;
+  }
+  .origin {
+    padding: 7rem 0;
+}
+
+.Links{
+  margin-top: 5rem;
+}
+}
+.abc{
+  font-size: 1.3vw !important;
+} 
+@media screen and (max-width: 600px){
+  #All-links{
+    margin-left: 2rem !important;
+    
+  }
+  #pag{
+    font-size: 1.1rem !important;
+  }
+  .slid12{ 
+    height: 6rem;
+  }
+.carousel-inner{
+    margin-top: 2.6rem !important;
+  }
+  .carousel-indicators{
+    padding-bottom: 4rem !important;
+  }
+  .DemoCarousel{
+    margin-top: 2.6rem !important;
+  }
+  .name{
+    top:0;
+  }
+  .thumbnail{
+    padding-top: 2rem;
+  }
+  #Show{
+    display:none !important;
+  }
+  .sol{
+    display: none !important;
+  }
+  .ops{
+    display: none !important;
+  }
+
+  #h4-p{
+    font-size: 1.5rem !important;
+    }
+    #edu{
+      font-size: 4vw !important;
+    }
+    .pri{
+      font-size: 1.7rem !important;
+    }
+
+
+  
+}

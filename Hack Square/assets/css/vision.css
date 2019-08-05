@@ -1,0 +1,152 @@
+
+h1 {
+  text-align: center;
+}
+
+.cardBox {
+  float: left;
+  font-size: 1.7em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 30%;
+}
+
+.cardBox:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card {
+  background: #00B0FF;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+.card p {
+  margin-bottom: 1.2em;
+}
+
+.card .front,
+.card .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.7em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+
+.card .back {
+  transform: rotateY( 180deg);
+}
+
+.cardBox:nth-child(1) .card .back {
+  background: black;
+}
+
+.cardBox:nth-child(2) .card .back {
+  background: black;
+}
+
+.cardBox:nth-child(3) .card .back {
+  background: black;
+}
+
+.cardBox:nth-child(4) .card .back {
+  background: black;
+}
+
+.cardBox:nth-child(6) .card .back {
+  background: black;
+}
+.cardBox:nth-child(5) .card .back {
+  background: black;
+}
+.cardBox:nth-child(2) .card {
+  -webkit-animation:  1.5s 1;
+  animation:  1.5s 1;
+}
+
+.cardBox:nth-child(3) .card {
+  -webkit-animation:  2s 1;
+  animation:  2s 1;
+}
+
+.cardBox:nth-child(4) .card {
+  -webkit-animation:  2.5s 1;
+  animation:  2.5s 1;
+}
+
+.cardBox:nth-child(5) .card {
+  -webkit-animation:  2.5s 1;
+  animation:  2.5s 1;
+}
+.cardBox:nth-child(6) .card {
+  -webkit-animation:  2.5s 1;
+  animation:  2.5s 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 90%;
+  }
+  .card {
+    height: 200px;
+  }
+  h5{
+    font-size: 2.8vw !important;
+  }
+  .cardBox:last-child {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 100%;
+  }
+  .card {
+    height: 260px;
+  }
+  p
+  {
+    font-size: 1vw; 
+  }
+}
+
+@media screen and (max-width:768px) {
+  
+}
+@media screen and (max-width: 600px){
+  .container {
+    width: 34rem !important;
+    padding-right: 2rem !important;
+    padding-left: 1px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .card p{
+
+      font-size: 4.5vw !important;
+  }
+  .abc{
+    font-size: 3.7vw !important;
+  }
+}
+@media screen and (max-width: 1024px){
+  .container {
+    width: 100%;
+  }
+}

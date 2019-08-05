@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+body p
+{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.nav-link ,.navbar-brand{
+  color:white !important;
+}
+
+body a img{
+  width: 15rem;
+  height: 20%;
+  margin-left: 2%;
+  margin-top: 1rem;
+}
+
+body h1{
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-size: 5vw !important;
+}
+#change{
+  color: #00B0FF !important;
+}
+
+body h3{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  p{
+    font-size: 3vw !important;
+  }
+  body a img{
+    height: 30% !important;
+    width: 30% !important;
+  }
+  div.example h1{
+    font-size: 10vw;
+  }
+  div.example h3{
+    font-size: 5vw;
+  }
+  
+  .log{
+    margin-top:2rem;
+}
+}
+
+
+
+.log{
+  display: inline;
+  margin-top:3rem;
+  margin-left: -1rem;
+}
